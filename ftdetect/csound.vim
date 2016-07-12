@@ -8,5 +8,5 @@
 
 au BufNewFile,BufRead *.orc,*.sco,*.csd,*.udo   set filetype=csound
 au BufNewFile		*.csd	0r <sfile>:p:h:h/templates/template.csd
-au BufNewFile		*.orc	0r <sfile>:p:h:h/templates/template.sco
+au BufNewFile		*.orc	0r <sfile>:p:h:h/templates/template.orc
 au BufNewFile,BufRead	*.csd	runtime! macros/csound_macros.vim
